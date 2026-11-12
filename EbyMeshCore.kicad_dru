@@ -1,0 +1,10 @@
+(version 1)
+# Copper-to-edge 0.3 mm (fab standard) so the GND pour keeps its necks near
+# the board edge and mounting holes. Lives here so it does not depend on .kicad_pro.
+(rule "copper edge 0.3mm"
+	(constraint edge_clearance (min 0.3mm)))
+
+# Edge-launch SMA: its pads sit on the board edge by design.
+(rule "SMA edge launch"
+	(condition "A.memberOfFootprint('J1')")
+	(constraint edge_clearance (min 0mm)))

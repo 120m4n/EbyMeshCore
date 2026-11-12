@@ -1,0 +1,77 @@
+(footprint "SW_Push_2pad"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a31344e-a32f-4926-b380-51378e88ef89")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "BUTTON"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "45c00fe5-de3e-476d-ade8-122f0e165080")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21fd6f60-b2be-4868-af07-bc674c6c78f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5558cf5-8c41-4655-9f84-dd53271159e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.82996 -0.91505)
+		(end 0.82996 4.98505)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "66a403f7-f5ae-4bb4-b8c0-d4e2797ab5a6")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.35992 1.5301)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "70707883-c224-453e-9e09-34001a4a1bea")
+	)
+	(pad "2" smd rect
+		(at 0 4.07)
+		(size 1.35992 1.5301)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "624835d0-f494-48b7-b82f-87d6eb955f73")
+	)
+	(embedded_fonts no)
+)

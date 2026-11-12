@@ -1,0 +1,76 @@
+(footprint "SolderPads_SW_OUT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a534b7a9-c73f-4bcb-8878-3f483bb0580c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "SW_OUT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5cb9b0af-5bb9-44a8-94d1-8dc65207d0c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69e081a5-867a-4122-8da2-a89731ce5241")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2269f9d5-85a2-42a3-b8b6-878c6028862d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a5bae25b-34e2-4bf6-8412-aeba71874411")
+	)
+	(pad "2" smd circle
+		(at -0.491 -17.22)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dc100cc7-8fc5-4830-8d7b-be2eaa22c0ed")
+	)
+	(pad "3" smd circle
+		(at -0.491 -11.32)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb95831a-03a5-4c9d-93b2-9e45b302c5ce")
+	)
+	(pad "4" smd circle
+		(at -2.97 -3.02)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b03d869e-e3f9-4748-af06-9dd71eaaae5f")
+	)
+	(embedded_fonts no)
+)
